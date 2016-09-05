@@ -1,10 +1,10 @@
 #Terrachanics Flash Prototype
 by Glen Cooney (2012)
 
-**Due to load times, it is recommended users download and extract the Terrachanics_Prototype_Demo.zip file and run it locally if you would like to play it.**
+See the [https://github.com/kuvick/DOEGame](Main Source Page) for final code.
 
 #Media
-[![Terrachanics image](http://i.imgur.com/nXJ73I0.png)](https://www.youtube.com/watch?v=c0dbq1l7zfU)
+[![Terrachanics image](http://i.imgur.com/nXJ73I0.png)](https://www.youtube.com/watch?v=c0dbq1l7zfU) Youtube walkthrough
 
 #Differences from Final Version
 
