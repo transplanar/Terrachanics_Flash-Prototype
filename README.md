@@ -4,7 +4,8 @@ by Glen Cooney (2012)
 See the [https://github.com/kuvick/DOEGame](Main Source Page) for final code.
 
 #Media
-[![Terrachanics image](http://i.imgur.com/nXJ73I0.png)](https://www.youtube.com/watch?v=c0dbq1l7zfU) Youtube walkthrough
+*Gameplay Walkthrough*
+[![Terrachanics image](http://i.imgur.com/nXJ73I0.png)](https://www.youtube.com/watch?v=c0dbq1l7zfU)
 
 #Differences from Final Version
 
