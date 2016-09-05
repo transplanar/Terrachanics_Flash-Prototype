@@ -4,7 +4,7 @@ by Glen Cooney (2012)
 **Due to load times, it is recommended users download and extract the Terrachanics_Prototype_Demo.zip file and run it locally if you would like to play it.**
 
 #Media
-[![Terrachanics image](https://img.youtube.com/vi/c0dbq1l7zfU/0.jpg)](https://www.youtube.com/watch?v=c0dbq1l7zfU)
+[![Terrachanics image](http://i.imgur.com/nXJ73I0.png)](https://www.youtube.com/watch?v=c0dbq1l7zfU)
 
 #Differences from Final Version
 
