@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+
+	
+
+
+	
+	
+
+
+
+
+	<building>
+		<id> Normal1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>red</input>
+		<output> orange </output>
+		<x> 6 </x>
+		<y> 3 </y>		
+	</building>
+	<building>
+		<id> Normal2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>orange</input>
+		<output> yellow </output>
+		<x> 5 </x>
+		<y> 3 </y>
+		<unit> ResearcherUnit </unit>
+	</building>
+	<building>
+		<id> Normal3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>yellow</input>
+		<output> green </output>
+		<x> 7 </x>
+		<y> 5 </y>		
+	</building>
+	<building>
+		<id> Normal4 </id> <!-- Unique identifier for this building. Used for linked events*******-->
+		<input>green</input>
+		<output> red </output>
+		<output> red </output>
+		<x> 7 </x>
+		<y> 6 </y>		
+	</building>
+	<building>
+		<id> Normal5 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>red</input>
+		<output> orange </output>
+		<x> 6 </x>
+		<y> 6 </y>		
+	</building>
+	<building>
+		<id> Normal6 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>red</input>
+		<output> blue </output>
+		<x> 8 </x>
+		<y> 6 </y>
+		<event>
+			<description> Fund production of the Smart Meter </description> <!-- Text display in event description-->
+			<turns> 25 </turns> <!-- Turns until this event occurs-->
+			<points> 50 </points> <!-- Points awarded for resolving-->
+			<positive> true </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>
+			<upgrade> SmartMeter </upgrade>
+		</event>
+	</building>
+	<building>
+		<id> Normal7 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>red</input>
+		<output> orange </output>
+		<x> 8 </x>
+		<y> 3 </y>		
+	</building>
+	<building>
+		<id> Normal8 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>white</input>
+		<output> green </output>
+		<x> 9 </x>
+		<y> 3 </y>
+		<unit> ResearcherUnit </unit>
+	</building>
+
+
+	<building>
+		<id> Normal9 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>red</input>
+		<output> yellow </output>
+		<x> 9 </x>
+		<y> 6 </y>
+		<event>
+			<description> Fund production of the Smart Meter </description> <!-- Text display in event description-->
+			<turns> 25 </turns> <!-- Turns until this event occurs-->
+			<points> 50 </points> <!-- Points awarded for resolving-->
+			<positive> true </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>
+			<upgrade> SmartMeter </upgrade>
+		</event>
+	</building>
+	<building>
+		<id> Normal0 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>red</input>
+		<output> green </output>
+		<x> 5 </x>
+		<y> 6 </y>		
+	</building>
+
+
+
+
+
+
+
+
+
+	
+
+
+	<building>
+		<id> Worker1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>green</input>
+		<x> 7 </x>
+		<y> 2 </y>
+		<!--The name of the unit class (case sensative). Currently either WorkerUnit or ResearcherUnit-->
+		<unit> WorkerUnit </unit>
+	</building>
+	
+	<building>
+		<id> Worker2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>blue</input>
+		<x> 7 </x>
+		<y> 7 </y>
+		<!--The name of the unit class (case sensative). Currently either WorkerUnit or ResearcherUnit-->
+		<unit> WorkerUnit </unit>		
+	</building>
+	
+	
+
+	
+	
+	
+	<building>
+		<id> ExtraOutputSpot1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> yellow </input>
+		<x> 5 </x>
+		<y> 4 </y>
+		<output>green</output>
+		<extra_output> blue </extra_output> 
+		<unit_allowed> WorkerUnit </unit_allowed>
+		<event>
+			<description> Provide power and find extra help for this power plant!</description> <!-- Text display in event description-->
+			<turns> 25 </turns> <!-- Turns until this event occurs-->
+			<points> 50 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>
+		</event>
+	</building>
+	
+	
+	<building>
+		<id> ExtraOutputSpot2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> yellow </input>
+		<x> 9 </x>
+		<y> 4 </y>
+		<output>white</output>
+		<extra_output> blue </extra_output> 
+		<unit_allowed> WorkerUnit </unit_allowed>
+		<event>
+			<description> Provide power and find extra help for this power plant!</description> <!-- Text display in event description-->
+			<turns> 25 </turns> <!-- Turns until this event occurs-->
+			<points> 50 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>			
+		</event>
+	</building>
+
+
+
+	
+	<building>
+		<id> EndCity1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> blue </input>
+		<x> 3 </x>
+		<y> 4 </y>
+		<upgrade> SmartMeter </upgrade>
+		<event>
+			<description> Power this city and help improve the efficency of power usage with a Smart Meter! </description> <!-- Text display in event description-->
+			<turns> 25 </turns> <!-- Turns until this event occurs-->
+			<points> 50 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+			<!-- If a Unit, use WorkerUnit or ResearcherUnit-->
+			<!-- If an upgrade, use any other string for the upgrade's ID-->
+		</event>		
+	</building>
+	
+	<building>
+		<id> EndCity2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> blue </input>
+		<x> 11 </x>
+		<y> 4 </y>
+		<upgrade> SmartMeter </upgrade>
+		<event>
+			<description> Power this city and help improve the efficency of power usage with a Smart Meter! </description> <!-- Text display in event description-->
+			<turns> 25 </turns> <!-- Turns until this event occurs-->
+			<points> 50 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+			<!-- If a Unit, use WorkerUnit or ResearcherUnit-->
+			<!-- If an upgrade, use any other string for the upgrade's ID-->
+		</event>		
+	</building>
+	
+	
+	
+	
+	<!------------------------------------------------------------------------------------------>
+	<!-- Data for all buildings allowed to be placed for any building site-->
+	
+	
+	<building_site_data>
+		<!--All buildings listed here must have a unique label and at least one output. Inputs are optional.-->
+		<building> 
+			<label> StartingPoint1 </label>
+			<output> blue </output>	
+		</building>
+		<building> 
+			<label> StartingPoint2 </label>
+			<output> green </output>	
+		</building>
+		<building> 
+			<label> StartingPoint3 </label>
+			<output> red </output>	
+		</building>
+	</building_site_data>
+	
+	
+	
+	<building_site>
+		<x> 7 </x>
+		<y> 4 </y>
+	</building_site>
+	
+	
+	<linkedEvent_data></linkedEvent_data>
+</data>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Basic42 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> blue </input>
+		<output> purple </output>
+		<x> 2 </x>
+		<y> 4 </y>
+	</building>
+	<building>
+		<id> Basic33 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> red </input>
+		<output> yellow </output>
+		<x> 3 </x>
+		<y> 3 </y>
+	</building>
+	<building>
+		<id> Terminal63 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> purple </input>
+		<x> 3 </x>
+		<y> 6 </y>
+		<unit> ResearcherUnit </unit>		
+	</building>
+	<building>
+		<id> Gate14 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> red </input>
+		<input> red </input>
+		<output> yellow </output>
+		<x> 4 </x>
+		<y> 1 </y>
+	</building>
+	<building>
+		<id> Basic44 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> yellow </input>
+		<output> green </output>
+		<output> purple </output>
+		<x> 4 </x>
+		<y> 4 </y>
+	</building>
+	<building>
+		<id> Originator35 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> red </output>
+		<extra_output> red </extra_output>
+		<x> 5 </x>
+		<y> 3 </y>
+	</building>
+	<building>
+		<id> Terminal65 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> purple </input>
+		<x> 5 </x>
+		<y> 6 </y>
+		<upgrade> ThisUpgrade </upgrade>
+		<unit_allowed> ResearcherUnit </unit_allowed>
+	</building>
+	<building>
+		<id> Basic16 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> purple </input>
+		<output> red </output>
+		<x> 6 </x>
+		<y> 1 </y>
+	</building>
+	<building>
+		<id> Basic46 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> blue </output>
+		<output> purple </output>
+		<x> 6 </x>
+		<y> 4 </y>
+		<unit> WorkerUnit </unit>
+	</building>
+	<building>
+		<id> Terminal67 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> purple </input>
+		<x> 7 </x>
+		<y> 6 </y>
+		<event>
+			<description> We need an upgrade! </description> <!-- Text display in event description-->
+			<turns> 20 </turns> <!-- Turns until this event occurs-->
+			<points> 100 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+			<upgrade> ThisUpgrade </upgrade>
+		</event>
+		<unit_allowed> ReseracherUnit</unit_allowed>
+	</building>
+	<building_site_data>
+		<!--All buildings listed here must have a unique label and at least one output. Inputs are optional.-->
+		<building> 
+			<label> Basic1 </label>
+			<input> blue </input>
+			<output> purple </output>
+		</building>
+		<building> 
+			<label> Basic2 </label>
+			<input> green </input>
+			<output> blue </output>	
+		</building>
+		<building> 
+			<label> Basic3 </label>
+			<input> yellow </input>
+			<output> green </output>
+		</building>
+	</building_site_data>
+	<building_site>
+		<x> 1 </x>
+		<y> 3 </y>
+	</building_site>
+	<building_site>
+		<x> 2 </x>
+		<y> 1 </y>
+	</building_site>
+	<building_site>
+		<x> 7 </x>
+		<y> 3 </y>
+	</building_site>
+</data>

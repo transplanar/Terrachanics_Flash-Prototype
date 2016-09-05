@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Power Plant 2x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> PowerPlant </image>
+		<!-- <input> purple </input> -->
+		<input> purple </input>
+		<output> blue </output>
+		<x> 2 </x>
+		<y> 4 </y>
+	</building>
+	<building>
+		<id> Refinery 3x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Refinery </image>
+		<input> orange </input>
+		<output> brown </output>
+		<x> 3 </x>
+		<y> 3 </y>
+	</building>
+	<building>
+		<id> House 3x6 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> blue </input>
+		<x> 3 </x>
+		<y> 6 </y>
+		<unit> ResearcherUnit </unit>		
+	</building>
+	<building>
+		<id> Refinery 4x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Refinery </image>
+		<input> orange </input>
+		<input> orange </input>
+		<output> brown </output>
+		<x> 4 </x>
+		<y> 1 </y>
+	</building>
+	<building>
+		<id> WMF 4x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> WasteFacility </image>
+		<!--<input> brown </input>-->
+		<input> brown </input>
+		<output> red </output>
+		<output> blue </output>
+		<x> 4 </x>
+		<y> 4 </y>
+	</building>
+	<building>
+		<id> Oil Drill 5x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> OilDrill </image>
+		<output> orange </output>
+		<extra_output> orange </extra_output>
+		<x> 5 </x>
+		<y> 3 </y>
+	</building>
+	<building>
+		<id> City 5x6 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> City </image>
+		<input> blue </input>
+		<x> 5 </x>
+		<y> 6 </y>
+		<upgrade> Stepped Chute Spillway Design </upgrade>
+	</building>
+	<building>
+		<id> Oil Drill 6x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> OilDrill </image>
+		<input> blue </input>
+		<output> orange </output>
+		<x> 6 </x>
+		<y> 1 </y>
+	</building>
+	<building>
+		<id> Mine 6x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Mine </image>
+		<input> red </input>
+		<output> purple </output>
+		<output> purple </output>
+		<x> 6 </x>
+		<y> 4 </y>
+		<unit> WorkerUnit </unit>
+	</building>
+	<building>
+		<id> Dam 7x6 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> HydroDam </image>
+		<input> purple </input>
+		<x> 7 </x>
+		<y> 6 </y>
+		<event>
+			<description> Upgrade the Dam with a new kind of spillway. </description>
+			<turns> 20 </turns> <!-- Turns until this event occurs-->
+			<points> 100 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+			<upgrade> Stepped Chute Spillway Design </upgrade>
+		</event>
+	</building>
+	
+	<building>
+		<id> House 1x6 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> blue </input>
+		<x> 1 </x>
+		<y> 6 </y>
+		<event>
+			<description> Residentville needs power! </description>
+			<turns> 0 </turns> <!-- Turns until this event occurs-->
+			<points> 100 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>
+		</event>
+	</building>
+	
+	
+	<building_site_data>
+		<!--All buildings listed here must have a unique label and at least one output. Inputs are optional.-->
+		<building> 
+			<label> Mine </label>
+			<image> Mine </image>
+			<input> red </input>
+			<output> purple </output>	
+		</building>
+		<building> 
+			<label> Power Plant </label>
+			<image> PowerPlant </image>
+			<input> purple </input>
+			<output> blue </output>
+		</building>
+		
+		<building> 
+			<label> Waste Facility </label>
+			<image> WasteFacility </image>
+			<input> brown </input>
+			<output> red </output>
+		</building>
+	</building_site_data>
+	<building_site>
+		<x> 1 </x>
+		<y> 3 </y>
+	</building_site>
+	<building_site>
+		<x> 2 </x>
+		<y> 1 </y>
+	</building_site>
+	<building_site>
+		<x> 7 </x>
+		<y> 3 </y>
+	</building_site>
+</data>

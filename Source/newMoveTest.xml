@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Power Plant 1x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> PowerPlant </image>
+		<output> blue </output>
+		<x> 1 </x>
+		<y> 1 </y>
+	</building>
+	
+	<building>
+		<id> Refinery 2x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Refinery </image>
+		<input> blue </input>
+		<output> red </output>
+		<output> red </output>
+		<x> 2 </x>
+		<y> 3 </y>
+	</building>
+	
+	<building>
+		<id> House 5x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> red </input>
+		<output> green </output>
+		<unit> WorkerUnit </unit>	
+		<x> 5 </x>
+		<y> 4 </y>		
+	</building>
+	
+	<building>
+		<id> House 5x2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> red </input>
+		<output> red </output>
+		<x> 5 </x>
+		<y> 2 </y>
+	</building>
+	
+	<building>
+		<id> House 7x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> red </input>
+		<output> red </output>
+		<output> red </output>
+		<x> 7 </x>
+		<y> 3 </y>
+	</building>
+	
+	<building>
+		<id> House 8x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> red </input>
+		<output> red </output>
+		<x> 8 </x>
+		<y> 1 </y>
+	</building>
+	
+	<building>
+		<id> House 9x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> red </input>
+		<output> red </output>
+		<x> 9 </x>
+		<y> 3 </y>
+	</building>
+	
+	<building>
+		<id> House 9x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> House </image>
+		<input> red </input>
+		<extra_output> blue </extra_output>
+		<x> 9 </x>
+		<y> 3 </y>
+	</building>
+	
+	
+</data>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Oil Drill 1x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> OilDrill </image>
+		<output> orange </output>
+		<x> 1 </x>
+		<y> 1 </y>		
+	</building>
+	<building>
+		<id> City 5x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> City </image>
+		<input> blue </input>
+		<x> 5 </x>
+		<y> 1 </y>
+		<event>
+			<description> This city needs power! </description> <!-- Text display in event description-->
+			<turns> 6 </turns> <!-- Turns until this event occurs-->
+			<points> 777 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+		</event>	
+	</building>
+	<building>
+		<id> Refinery 9x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Refinery </image>
+		<input> orange </input>
+		<output> red </output>
+		<x> 9 </x>
+		<y> 1 </y>
+		<unit> WorkerUnit </unit>
+	</building>
+	<building>
+		<id> Refinery 3x2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Refinery </image>
+		<input> orange </input>
+		<output> red </output>
+		<x> 3 </x>
+		<y> 2 </y>		
+	</building>
+	<building>
+		<id> WMF 7x2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> WasteFacility </image>
+		<input> red </input>
+		<extra_output> brown </extra_output>
+		<x> 7 </x>
+		<y> 2 </y>
+	</building>
+	<building>
+		<id> Power Plant 5x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> PowerPlant </image>
+		<input> red </input>
+		<input> brown </input>
+		<output> blue </output>
+		<x> 5 </x>
+		<y> 3 </y>
+	</building>
+	<building>
+		<id> Oil Drill 9x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> OilDrill </image>
+		<output> orange </output>
+		<x> 9 </x>
+		<y> 3 </y>
+	</building>
+	<building>
+		<id> WMF 7x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> WasteFacility </image>
+		<input> orange </input>
+		<extra_output> brown </extra_output>
+		<x> 7 </x>
+		<y> 4 </y>
+	</building>
+	<building>
+		<id> Refinery 4x5 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Refinery </image>
+		<input> orange </input>
+		<extra_output> red </extra_output>
+		<x> 4 </x>
+		<y> 5 </y>
+	</building>
+	<building>
+		<id> OilDrill 6x5 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> OilDrill </image>
+		<output> orange </output>
+		<output> orange </output>
+		<x> 6 </x>
+		<y> 5 </y>
+		<unit> WorkerUnit </unit>
+	</building>
+	<!------------------------------------------------------------------------------------------>
+	<!-- Data for all buildings allowed to be placed for any building site-->
+	<building_site_data></building_site_data>
+	<linkedEvent_data></linkedEvent_data>
+</data>

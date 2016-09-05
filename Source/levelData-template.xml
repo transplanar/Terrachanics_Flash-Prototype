@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Originator11 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> green </output>
+		<output> green </output>
+		<x> 1 </x>
+		<y> 1 </y>		
+	</building>
+	<building>
+		<id> Originator71 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> green </output>
+		<output> green </output>
+		<x> 7 </x>
+		<y> 1 </y>		
+	</building>
+	<building>
+		<id> UnitStart32 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>green</input>
+		<x> 3 </x>
+		<y> 2 </y>
+		<!--The name of the unit class (case sensative). Currently either WorkerUnit or ResearcherUnit-->
+		<unit> WorkerUnit </unit>		
+	</building>
+	<building>
+		<id> UnitStart52 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>green</input>
+		<upgrade> HerpDerp </upgrade>
+		<x> 5 </x>
+		<y> 2 </y>
+		<!--The name of the unit class (case sensative). Currently either WorkerUnit or ResearcherUnit-->
+		<unit> WorkerUnit </unit>		
+	</building>
+	<building>
+		<id> Basic14 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<x> 1 </x>
+		<y> 4 </y>
+		<extra_output> red </extra_output> 
+		<unit_allowed> WorkerUnit </unit_allowed>
+	</building>
+	<building>
+		<id> Basic74 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<x> 7 </x>
+		<y> 4 </y>
+		<extra_output> red </extra_output> 
+		<unit_allowed> WorkerUnit </unit_allowed>
+	</building>
+	<building>
+		<id> ResearcherSpot </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<output> green </output>
+		<x> 8 </x>
+		<y> 3 </y>
+		<unit> ResearcherUnit </unit>
+	</building>
+	
+	<building>
+		<id> UpgradeSpot </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<x> 10 </x>
+		<y> 2 </y>
+		<upgrade> NerfGun </upgrade>
+	</building>
+	
+	<building>
+		<id> OptionalObjective </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<x> 10 </x>
+		<y> 4 </y>
+		
+		<event>
+			<description> We need a nerf gun! </description> <!-- Text display in event description-->
+			<turns> 12 </turns> <!-- Turns until this event occurs-->
+			<points> 777 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>
+			<upgrade> NerfGun </upgrade>
+			<!-- If a Unit, use WorkerUnit or ResearcherUnit-->
+			<!-- If an upgrade, use any other string for the upgrade's ID-->
+			<spawn> </spawn>
+		</event>
+	</building>
+	
+	
+	
+	<building>
+		<id> Terminal46 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> blue </input>
+		<x> 4 </x>
+		<y> 6 </y>
+		<event>
+			<description> Power this building! </description> <!-- Text display in event description-->
+			<turns> 12 </turns> <!-- Turns until this event occurs-->
+			<points> 50 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>
+			<!-- If a Unit, use WorkerUnit or ResearcherUnit-->
+			<!-- If an upgrade, use any other string for the upgrade's ID-->
+			<spawn> </spawn>
+		</event>		
+	</building>
+		
+	<!-- Barriers only require an x and y coordiante-->
+	<barrier>
+		<x> 3 </x>
+		<y> 4 </y>
+	</barrier>
+	
+	<barrier>
+		<x> 7 </x>
+		<y> 7 </y>
+	</barrier>
+	
+	<barrier>
+		<x> 7 </x>
+		<y> 6 </y>
+	</barrier>
+	
+	<barrier>
+		<x> 7 </x>
+		<y> 5 </y>
+	</barrier>
+	
+	<!-- Premade links require the ID of the origin and target buildings, with the type of output (case sensative)-->
+	<!-- Note: There is currently no error checking for this, so make sure all information is correct.-->
+	<link>
+		<origin> Originator11 </origin>
+		<target> UnitStart32 </target>
+		<type> green </type>
+	</link>
+	
+	<link>
+		<origin> Originator11 </origin>
+		<target> Basic14 </target>
+		<type> green </type>
+	</link>
+		
+	<!------------------------------------------------------------------------------------------>
+	<!-- Data for all buildings allowed to be placed for any building site-->
+	<building_site_data>
+		<!--All buildings listed here must have a unique label and at least one output. Inputs are optional.-->
+		<building> 
+			<label> Gate </label>
+			<input> red </input>
+			<input> red </input>
+			<output> blue </output>	
+		</building>
+	</building_site_data>
+	<building_site>
+		<x> 4 </x>
+		<y> 4 </y>
+	</building_site>
+	<linkedEvent_data></linkedEvent_data>
+</data>

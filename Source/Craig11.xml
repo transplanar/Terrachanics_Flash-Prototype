@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Waste13 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> purple </input>
+		<output> yellow </output>
+		<x> 3 </x>
+		<y> 1 </y>		
+	</building>
+	<building>
+		<id> PowerPlant33 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> yellow </input>
+		<input> blue </input>
+		<extra_output> yellow </extra_output>
+		<x> 3 </x>
+		<y> 3 </y>	
+	</building>
+	<building>
+		<id> Gas Station54 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input>yellow</input>
+		<input>yellow</input>
+		<x> 4 </x>
+		<y> 5 </y>
+		<event>
+			<description> Supply Ethanol & Oil to the Gas Station </description>
+			<turns> 12 </turns> <!-- Turns until this event occurs-->
+			<points> 100 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+			<spawn> </spawn>
+		</event>		
+	</building>
+	<building>
+		<id> OilDrill75 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output>green</output>
+		<x> 5 </x>
+		<y> 7 </y>		
+	</building>
+	<building>
+		<id> House36 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> blue </input>
+		<x> 6 </x>
+		<y> 3 </y>
+		<unit> WorkerUnit </unit>
+	</building>
+	<building>
+		<id> Refinery56 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> yellow </output>
+		<x> 6 </x>
+		<y> 5 </y>
+	</building>
+	
+	<!------------------------------------------------------------------------------------------>
+	<!-- Data for all buildings allowed to be placed for any building site-->
+	<building_site_data>
+		<!--All buildings listed here must have a unique label and at least one output. Inputs are optional.-->
+		<building> 
+			<label> CornFarm </label>
+			<output> purple </output>	
+		</building>
+		<building> 
+			<label> WindFarm </label>
+			<output> blue </output>	
+		</building>
+		<building> 
+			<label> SolarFarm </label>
+			<output> blue </output>	
+		</building>
+	</building_site_data>
+	<building_site>
+		<x> 1 </x>
+		<y> 1 </y>
+	</building_site>
+	<building_site>
+		<x> 1 </x>
+		<y> 3 </y>
+	</building_site>
+	<building_site>
+		<x> 6 </x>
+		<y> 1 </y>
+	</building_site>
+	<linkedEvent_data></linkedEvent_data>
+</data>

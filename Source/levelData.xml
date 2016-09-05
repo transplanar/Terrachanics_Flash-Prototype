@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Origin 1x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> green </output>
+		<output> green </output>
+		<x> 1 </x>
+		<y> 1 </y>		
+	</building>
+	<building>
+		<id> Test 1x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<unit> WorkerUnit </unit>
+		<x> 1 </x>
+		<y> 4 </y>		
+	</building>
+	<building>
+		<id> Test 2x5 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<x> 2 </x>
+		<y> 5 </y>		
+	</building>
+	<building>
+		<id> Test 3x1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<extra_output> red </extra_output>
+		<x> 3 </x>
+		<y> 1 </y>		
+	</building>
+	<building>
+		<id> Test 3x3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<output> green </output>
+		<x> 3 </x>
+		<y> 3 </y>		
+	</building>
+	<building>
+		<id> Test 4x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> green </output>
+		<x> 4 </x>
+		<y> 4 </y>		
+	</building>
+	
+	
+</data>

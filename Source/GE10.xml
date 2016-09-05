@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> City3 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> City </image>
+		<input> blue </input>
+		<output> green </output>
+		<x> 2 </x>
+		<y> 2 </y>
+		<event>
+			<description> Clear the waste! </description>
+			<turns> 10 </turns> <!-- Turns until this event occurs-->
+			<points> 1000 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+		</event>		
+	</building>
+	<building>
+		<id> City4 </id>
+		<image> City </image>
+		<input> blue </input>
+		<output> red </output>
+		<output> blue </output>
+		<x> 2 </x>
+		<y> 1 </y>
+	</building>
+	<building>
+		<id> City5 </id>
+		<image> City </image>
+		<input> red </input>
+		<output> red </output>
+		<output> brown </output>
+		<output> blue </output>
+		<x> 3 </x>
+		<y> 2 </y>
+	</building>
+	<building>
+		<id> City2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> City </image>
+		<output> blue </output>
+		<x> 3 </x>
+		<y> 1 </y>	
+	</building>
+	<building>
+		<id> City1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> City </image>
+		<input> green </input>
+		<output> blue </output>
+		<x> 4 </x>
+		<y> 2 </y>
+		<unit> WorkerUnit </unit>
+	</building>
+	<building>
+		<id> WasteFacility2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> WasteFacility </image>
+		<input> orange </input>
+		<x> 4 </x>
+		<y> 1 </y>
+		<event>
+			<description> Clear the waste! </description>
+			<turns> 5 </turns> <!-- Turns until this event occurs-->
+			<points> 2500 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> true </objective>
+		</event>
+	</building>
+	<building>
+		<id> Refinery1 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Refinery </image>
+		<input> red </input>
+		<output> orange </output>
+		<extra_output> brown </extra_output>
+		<x> 5 </x>
+		<y> 2 </y>
+	</building>
+	<building>
+		<id> OilDrill2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> OilDrill </image>
+		<input> brown </input>
+		<x> 5 </x>
+		<y> 1 </y>
+		<event>
+			<description> Get some oil here quickly! </description>
+			<turns> 10 </turns> <!-- Turns until this event occurs-->
+			<points> 450 </points> <!-- Points awarded for resolving-->
+			<positive> false </positive> <!-- Boolean for if this event is positive (true or false) -->
+			<objective> false </objective>
+		</event>
+	</building>
+	<building>
+		<id> Mine </id> <!-- Unique identifier for this building. Used for linked events-->
+		<image> Mine </image>
+		<input> orange </input>
+		<output> brown </output>
+		<x> 4 </x>
+		<y> 4 </y>
+	</building>
+	<building> 
+		<id> Mine </id>
+		<image> Mine </image>
+		<input> blue </input>
+		<output> orange </output>
+		<x> 4 </x>
+		<y> 3 </y>
+	</building>
+	<!------------------------------------------------------------------------------------------>
+	<!-- Data for all buildings allowed to be placed for any building site-->
+	<building_site_data></building_site_data>
+	<linkedEvent_data></linkedEvent_data>
+</data>

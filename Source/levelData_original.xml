@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- standard buildings---------------------------------------------------------------------->
+	<building>
+		<id> Originator 7x7 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> yellow </output>
+		<output> yellow </output>
+		<x> 7 </x>
+		<y> 7 </y>		
+	</building>
+	
+	<building>
+		<id> Basic 5x6 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> green </output>
+		<input> yellow </input>
+		<x> 5 </x>
+		<y> 6 </y>		
+	</building>
+	
+	<building>
+		<id> Basic 5x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> green </input>
+		<output> yellow </output>
+		<x> 5 </x>
+		<y> 4 </y>		
+	</building>
+	
+	<building>
+		<id> Gate 7x4 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<input> yellow </input>
+		<input> yellow </input>
+		<output> yellow </output>
+		<x> 7 </x>
+		<y> 4 </y>		
+	</building>
+	
+	<building>
+		<id> Basic 9x6 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> yellow </output>
+		<output> yellow </output>
+		<x> 9 </x>
+		<y> 6 </y>		
+	</building>
+	
+	<building>
+		<id> Basic 11x5 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> yellow </output>
+		<output> yellow </output>
+		<x> 11 </x>
+		<y> 5 </y>		
+	</building>
+	
+	<building>
+		<id> Basic 11x5 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> yellow </output>
+		<output> yellow </output>
+		<x> 10 </x>
+		<y> 3 </y>		
+	</building>
+	
+	
+	<building>
+		<id> Basic 5x2 </id> <!-- Unique identifier for this building. Used for linked events-->
+		<output> yellow </output>
+		<output> yellow </output>
+		<x> 6 </x>
+		<y> 2 </y>		
+	</building>
+	
+		
+</data>
