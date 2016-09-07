@@ -1,7 +1,7 @@
 #Terrachanics Flash Prototype
 by Glen Cooney (2012)
 
-See the [https://github.com/kuvick/DOEGame](Main Source Page) for final code.
+See the [Main Source Page](https://github.com/kuvick/DOEGame) for final code.
 
 #Media
 *Gameplay Walkthrough*
